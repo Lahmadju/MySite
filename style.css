@@ -1,0 +1,142 @@
+@import url(font-face.css);
+
+* {
+  background-color: #202020;
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.body h1 h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  gap: 4px;
+  color: red;
+  padding: 15px;
+  width: 100%;
+  border-top: 1px solid #fff;
+  margin: 0;
+  bottom: 0;
+}
+
+.navbar {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.navbar a {
+  color: red;
+  padding: 0 10px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.navbar a:hover {
+  color: #fff;
+  transition: 0.4s;
+  text-decoration-line: underline;
+  text-underline-offset: 1px;
+}
+
+#FR {
+  color: red;
+}
+
+.image {
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 50px;
+  margin: 50px 0;
+  width: 1000px;
+}
+
+.main-contact {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  gap: 16px;
+}
+
+.main-contact p {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  text-align: start;
+  color: red;
+}
+
+.main-contact-images {
+  fill: #ff0000;
+}
+
+.main-contact a {
+  color: red;
+}
+
+.main-info {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: start;
+  text-align: start;
+  gap: 30px;
+}
+
+.main-info > h1 {
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-info div {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 16px;
+}
+
+.intro {
+  border-left: 5px solid red;
+  padding-left: 10px;
+  margin: 0;
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.my-road {
+ list-style-position: inherit;
+}
+
+#link-factory {
+  color: red;
+
+}
