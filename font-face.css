@@ -3,9 +3,9 @@
   font-weight: 500;
   src: local("OpenSans Medium"), 
        local("OpenSans-Medium"), 
-       url("font/OpenSans/woff2/OpenSans-Medium.woff2") format('woff2'),
-       url("font/OpenSans/woff/OpenSans-Medium.woff") format('woff'),
-       url("font/OpenSans/eot/OpenSans-Medium.eot") format('eot');
+       url("OpenSans-Medium.woff2") format('woff2'),
+       url("OpenSans-Medium.woff") format('woff'),
+       url("OpenSans-Medium.eot") format('eot');
   font-style: normal;
   font-display: swap;
 }
@@ -15,9 +15,9 @@
   font-weight: 400;
   src: local("OpenSans Regular"), 
        local("OpenSans-Regular"), 
-       url("font/OpenSans/woff2/OpenSans-Regular.woff2") format('woff2'),
-       url("font/OpenSans/woff/OpenSans-Regular.woff") format('woff'),
-       url("font/OpenSans/eot/OpenSans-Regular.eot") format('eot');
+       url("OpenSans-Regular.woff2") format('woff2'),
+       url("OpenSans-Regular.woff") format('woff'),
+       url("OpenSans-Regular.eot") format('eot');
   font-style: normal;
   font-display: swap;
 }
@@ -27,9 +27,9 @@
   font-weight: 700;
   src: local("OpenSans Bold"), 
        local("OpenSans-Bold"), 
-       url("font/OpenSans/woff2/OpenSans-Bold.woff2") format('woff2'),
-       url("font/OpenSans/woff/OpenSans-Bold.woff") format('woff'),
-       url("font/OpenSans/eot/OpenSans-Bold.eot") format('eot');
+       url("OpenSans-Bold.woff2") format('woff2'),
+       url("OpenSans-Bold.woff") format('woff'),
+       url("OpenSans-Bold.eot") format('eot');
   font-style: bold;
   font-display: swap;
 }
